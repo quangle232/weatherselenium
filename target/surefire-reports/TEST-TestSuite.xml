@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="34.184" tests="5" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/quangle/IdeaProjects/WeatherSelenium/target/test-classes:/Users/quangle/IdeaProjects/WeatherSelenium/target/classes:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-java/4.8.1/selenium-java-4.8.1.jar:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-api/4.8.1/selenium-api-4.8.1.jar:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.8.1/selenium-chrome-driver-4.8.1.jar:/Users/quangle/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/quangle/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/quangle/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/quangle/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/quangle/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/quangle/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/quangle/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/quangle/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/quangle/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/quangle/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.8.1/selenium-chromium-driver-4.8.1.jar:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-json/4.8.1/selenium-json-4.8.1.jar:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v108/4.8.1/selenium-devtools-v108-4.8.1.jar:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v109/4.8.1/selenium-devtools-v109-4.8.1.jar:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v110/4.8.1/selenium-devtools-v110-4.8.1.jar:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.8.1/selenium-devtools-v85-4.8.1.jar:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.8.1/selenium-edge-driver-4.8.1.jar:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.8.1/selenium-firefox-driver-4.8.1.jar:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-http/4.8.1/selenium-http-4.8.1.jar:/Users/quangle/.m2/repository/dev/failsafe/failsafe/3.3.0/failsafe-3.3.0.jar:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.8.1/selenium-ie-driver-4.8.1.jar:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.8.1/selenium-remote-driver-4.8.1.jar:/Users/quangle/.m2/repository/io/netty/netty-buffer/4.1.87.Final/netty-buffer-4.1.87.Final.jar:/Users/quangle/.m2/repository/io/netty/netty-codec-http/4.1.87.Final/netty-codec-http-4.1.87.Final.jar:/Users/quangle/.m2/repository/io/netty/netty-codec/4.1.87.Final/netty-codec-4.1.87.Final.jar:/Users/quangle/.m2/repository/io/netty/netty-handler/4.1.87.Final/netty-handler-4.1.87.Final.jar:/Users/quangle/.m2/repository/io/netty/netty-common/4.1.87.Final/netty-common-4.1.87.Final.jar:/Users/quangle/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.87.Final/netty-transport-classes-epoll-4.1.87.Final.jar:/Users/quangle/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.87.Final/netty-transport-classes-kqueue-4.1.87.Final.jar:/Users/quangle/.m2/repository/io/netty/netty-transport-native-epoll/4.1.87.Final/netty-transport-native-epoll-4.1.87.Final.jar:/Users/quangle/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.87.Final/netty-transport-native-kqueue-4.1.87.Final.jar:/Users/quangle/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.87.Final/netty-transport-native-unix-common-4.1.87.Final.jar:/Users/quangle/.m2/repository/io/netty/netty-transport/4.1.87.Final/netty-transport-4.1.87.Final.jar:/Users/quangle/.m2/repository/io/netty/netty-resolver/4.1.87.Final/netty-resolver-4.1.87.Final.jar:/Users/quangle/.m2/repository/io/opentelemetry/opentelemetry-api/1.22.0/opentelemetry-api-1.22.0.jar:/Users/quangle/.m2/repository/io/opentelemetry/opentelemetry-context/1.22.0/opentelemetry-context-1.22.0.jar:/Users/quangle/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.22.0/opentelemetry-exporter-logging-1.22.0.jar:/Users/quangle/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.22.0/opentelemetry-sdk-metrics-1.22.0.jar:/Users/quangle/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.22.0-alpha/opentelemetry-sdk-logs-1.22.0-alpha.jar:/Users/quangle/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.22.0-alpha/opentelemetry-api-logs-1.22.0-alpha.jar:/Users/quangle/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.22.0/opentelemetry-sdk-common-1.22.0.jar:/Users/quangle/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.22.0/opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar:/Users/quangle/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.22.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar:/Users/quangle/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.22.0/opentelemetry-sdk-trace-1.22.0.jar:/Users/quangle/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.22.0/opentelemetry-sdk-1.22.0.jar:/Users/quangle/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.22.0-alpha/opentelemetry-semconv-1.22.0-alpha.jar:/Users/quangle/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/quangle/.m2/repository/net/bytebuddy/byte-buddy/1.12.22/byte-buddy-1.12.22.jar:/Users/quangle/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/quangle/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/quangle/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/quangle/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/quangle/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/quangle/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/quangle/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/quangle/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/quangle/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/quangle/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.8.1/selenium-manager-4.8.1.jar:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.8.1/selenium-safari-driver-4.8.1.jar:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-support/4.8.1/selenium-support-4.8.1.jar:/Users/quangle/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/quangle/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/quangle/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/quangle/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/quangle/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/quangle/.m2/repository/io/github/bonigarcia/webdrivermanager/5.3.2/webdrivermanager-5.3.2.jar:/Users/quangle/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/quangle/.m2/repository/com/github/docker-java/docker-java/3.2.14/docker-java-3.2.14.jar:/Users/quangle/.m2/repository/com/github/docker-java/docker-java-core/3.2.14/docker-java-core-3.2.14.jar:/Users/quangle/.m2/repository/com/github/docker-java/docker-java-api/3.2.14/docker-java-api-3.2.14.jar:/Users/quangle/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/quangle/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/quangle/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/quangle/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/quangle/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/quangle/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/quangle/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/quangle/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/quangle/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.14/docker-java-transport-httpclient5-3.2.14.jar:/Users/quangle/.m2/repository/com/github/docker-java/docker-java-transport/3.2.14/docker-java-transport-3.2.14.jar:/Users/quangle/.m2/repository/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar:/Users/quangle/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/quangle/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/quangle/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/quangle/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/quangle/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/quangle/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/quangle/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/quangle/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Ho_Chi_Minh"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="AU"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/19.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/quangle/IdeaProjects/WeatherSelenium/target/surefire/surefirebooter-20230319211249276_3.jar /Users/quangle/IdeaProjects/WeatherSelenium/target/surefire 2023-03-19T21-12-49_195-jvmRun1 surefire-20230319211249276_1tmp surefire_0-20230319211249276_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/quangle/IdeaProjects/WeatherSelenium/target/test-classes:/Users/quangle/IdeaProjects/WeatherSelenium/target/classes:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-java/4.8.1/selenium-java-4.8.1.jar:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-api/4.8.1/selenium-api-4.8.1.jar:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.8.1/selenium-chrome-driver-4.8.1.jar:/Users/quangle/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/quangle/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/quangle/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/quangle/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/quangle/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/quangle/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/quangle/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/quangle/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/quangle/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/quangle/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.8.1/selenium-chromium-driver-4.8.1.jar:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-json/4.8.1/selenium-json-4.8.1.jar:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v108/4.8.1/selenium-devtools-v108-4.8.1.jar:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v109/4.8.1/selenium-devtools-v109-4.8.1.jar:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v110/4.8.1/selenium-devtools-v110-4.8.1.jar:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.8.1/selenium-devtools-v85-4.8.1.jar:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.8.1/selenium-edge-driver-4.8.1.jar:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.8.1/selenium-firefox-driver-4.8.1.jar:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-http/4.8.1/selenium-http-4.8.1.jar:/Users/quangle/.m2/repository/dev/failsafe/failsafe/3.3.0/failsafe-3.3.0.jar:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.8.1/selenium-ie-driver-4.8.1.jar:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.8.1/selenium-remote-driver-4.8.1.jar:/Users/quangle/.m2/repository/io/netty/netty-buffer/4.1.87.Final/netty-buffer-4.1.87.Final.jar:/Users/quangle/.m2/repository/io/netty/netty-codec-http/4.1.87.Final/netty-codec-http-4.1.87.Final.jar:/Users/quangle/.m2/repository/io/netty/netty-codec/4.1.87.Final/netty-codec-4.1.87.Final.jar:/Users/quangle/.m2/repository/io/netty/netty-handler/4.1.87.Final/netty-handler-4.1.87.Final.jar:/Users/quangle/.m2/repository/io/netty/netty-common/4.1.87.Final/netty-common-4.1.87.Final.jar:/Users/quangle/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.87.Final/netty-transport-classes-epoll-4.1.87.Final.jar:/Users/quangle/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.87.Final/netty-transport-classes-kqueue-4.1.87.Final.jar:/Users/quangle/.m2/repository/io/netty/netty-transport-native-epoll/4.1.87.Final/netty-transport-native-epoll-4.1.87.Final.jar:/Users/quangle/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.87.Final/netty-transport-native-kqueue-4.1.87.Final.jar:/Users/quangle/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.87.Final/netty-transport-native-unix-common-4.1.87.Final.jar:/Users/quangle/.m2/repository/io/netty/netty-transport/4.1.87.Final/netty-transport-4.1.87.Final.jar:/Users/quangle/.m2/repository/io/netty/netty-resolver/4.1.87.Final/netty-resolver-4.1.87.Final.jar:/Users/quangle/.m2/repository/io/opentelemetry/opentelemetry-api/1.22.0/opentelemetry-api-1.22.0.jar:/Users/quangle/.m2/repository/io/opentelemetry/opentelemetry-context/1.22.0/opentelemetry-context-1.22.0.jar:/Users/quangle/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.22.0/opentelemetry-exporter-logging-1.22.0.jar:/Users/quangle/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.22.0/opentelemetry-sdk-metrics-1.22.0.jar:/Users/quangle/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.22.0-alpha/opentelemetry-sdk-logs-1.22.0-alpha.jar:/Users/quangle/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.22.0-alpha/opentelemetry-api-logs-1.22.0-alpha.jar:/Users/quangle/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.22.0/opentelemetry-sdk-common-1.22.0.jar:/Users/quangle/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.22.0/opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar:/Users/quangle/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.22.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar:/Users/quangle/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.22.0/opentelemetry-sdk-trace-1.22.0.jar:/Users/quangle/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.22.0/opentelemetry-sdk-1.22.0.jar:/Users/quangle/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.22.0-alpha/opentelemetry-semconv-1.22.0-alpha.jar:/Users/quangle/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/quangle/.m2/repository/net/bytebuddy/byte-buddy/1.12.22/byte-buddy-1.12.22.jar:/Users/quangle/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/quangle/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/quangle/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/quangle/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/quangle/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/quangle/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/quangle/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/quangle/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/quangle/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/quangle/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.8.1/selenium-manager-4.8.1.jar:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.8.1/selenium-safari-driver-4.8.1.jar:/Users/quangle/.m2/repository/org/seleniumhq/selenium/selenium-support/4.8.1/selenium-support-4.8.1.jar:/Users/quangle/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/quangle/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/quangle/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/quangle/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/quangle/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/quangle/.m2/repository/io/github/bonigarcia/webdrivermanager/5.3.2/webdrivermanager-5.3.2.jar:/Users/quangle/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/quangle/.m2/repository/com/github/docker-java/docker-java/3.2.14/docker-java-3.2.14.jar:/Users/quangle/.m2/repository/com/github/docker-java/docker-java-core/3.2.14/docker-java-core-3.2.14.jar:/Users/quangle/.m2/repository/com/github/docker-java/docker-java-api/3.2.14/docker-java-api-3.2.14.jar:/Users/quangle/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/quangle/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/quangle/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/quangle/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/quangle/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/quangle/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/quangle/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/quangle/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/quangle/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.14/docker-java-transport-httpclient5-3.2.14.jar:/Users/quangle/.m2/repository/com/github/docker-java/docker-java-transport/3.2.14/docker-java-transport-3.2.14.jar:/Users/quangle/.m2/repository/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar:/Users/quangle/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/quangle/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/quangle/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/quangle/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/quangle/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/quangle/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/quangle/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/quangle/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/quangle"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/19.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/quangle/IdeaProjects/WeatherSelenium"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/quangle/IdeaProjects/WeatherSelenium/target/surefire/surefirebooter-20230319211249276_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="19.0.2"/>
+    <property name="user.name" value="quangle"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.2.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="browser" value="firefox"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/quangle/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/ln/q_4xfpgs6096xqlq71rjns7m0000gn/T/"/>
+    <property name="java.version" value="19.0.2"/>
+    <property name="user.dir" value="/Users/quangle/IdeaProjects/WeatherSelenium"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="webdriver.gecko.driver" value="/Users/quangle/.cache/selenium/geckodriver/mac64/0.32.2/geckodriver"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/quangle/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="19.0.2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="shouldBeFailedToTestSureFireReportOnly" classname="test.TenDayPageTest" time="0.006">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at test.TenDayPageTest.shouldBeFailedToTestSureFireReportOnly(TenDayPageTest.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+1679235170301	geckodriver	INFO	Listening on 127.0.0.1:29583
+1679235170510	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "37232" "--r ... /[::1]:37232/" "-foreground" "-no-remote" "-profile" "/var/folders/ln/q_4xfpgs6096xqlq71rjns7m0000gn/T/rust_mozprofileSf4hpt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679235171293	Marionette	INFO	Marionette enabled
+1679235171381	Marionette	INFO	Listening on port 60250
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-origins\n"
+Read port: 60250
+WebDriver BiDi listening on ws://127.0.0.1:37232
+1679235171604	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/ln/q_4xfpgs6096xqlq71rjns7m0000gn/T/rust_mozprofileSf4hpt/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37232/devtools/browser/b029a6a1-4aa5-4e90-aa96-d8ad32cca4fc
+]]></system-err>
+  </testcase>
+  <testcase name="shouldBePassToTestSureFireReportOnly" classname="test.TenDayPageTest" time="0">
+    <system-err><![CDATA[1679235173251	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:60267
+1679235173254	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1679235173286	Marionette	INFO	Stopped listening on port 60250
+console.warn: services.settings: main/query-stripping sync interrupted by shutdown
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "prJoafvialSec-rbiepfto errorre:- crhangesource://gre/modulese/" is finished, it is too late to registerAsyncS hcutdoowmnp.lseytis.mjso,n  lcoinndei 72t7i:o nE r"rOoSr:. FPihlaes:e  f"lpruosfhi lIe/-Ob efquoeruee-dc hbaenfgoer"e  ipsr ofifniilsheeBde,f iot riesC htaonog late to ereg"iste
+rW AcRoNmIpNlGet:i oand dcBolnodcitikoenr @"rOeSs.oFiluer:c ef:l/u/sgh I/rOe /qmuoeduuelde bse/fAosryen cpSrofhiultedBoewfno.rseChyasn.gmej"s
+:J7a2v7a:S1c5r
+iapdt deBrlroockerr:@resource :/r/egsroeu/mordcuel:e/s//gArsynec/Shmutoddouwlne.ssys./mAjssy:523:26
+addBlocknecrS@hresoutduorwcne.:s//gyrse./mmjosd,u lleisn/eA s7y2n7c:S hEurtrdoorw:n .Psys.mjs:h4a5s8e: 1"5p
+rseotfuiplSeh-ubtedfoorwen-@crheasnougrec"e :i/s/ gfrien/imsohdeudl,e si/to sifsi lteo/oo slfaitlee _taos yrnecg_ifsrtoenrt .cjosmmp:l1e5t4i8o:n2 8c
+o@nrdeistoiuornc e":O/S/.gFriel/em:o dfulluessh/ oIs/fOi lqeu/eousefdi lbee_faosryen cp_rforfoinlte.Bjesfmo:r1e5C6h8a:n1g6e
+"@
+rJeasvoauSrccrei:p/t/ gerrer/omro:d urleesso/uorcsef:i/l/eg.rjes/mm:o1d2u:l3e0s
+/@ArseysnocuSrhcuet:d/o/wgnr.es/ymso.dmujlse,s /lTienlee 727:m eEtrrryorS:t oPrhaagsee. s"ypsr.omfjisl:e1-0b:e2f8o
+r_ec-hcheacnkgPee"n diisn gfPiinngiss@hreeds,o uirtc ei:s /t/ogor el/amtoed utloe sr/eTgeilsetmeert rcyoSmepnlde.tsiyosn. mcjosn:d8i6t3i:o1n7 
+"sOetSu.pF@irlees:o urfcleu:s/h/ gIr/eO/ mqoudeuuleeds /Tbeelfeormee tprryoSfeinleBedf.osryesC.hmajnsg:e8"0
+3:18
+setup@resoJuarvcaeS:/c/rgirpet/ meodules/TelemretrryoSre:n d.sys.mrjess:o2u4r1:3c0e
+:s/e/tgurpeTe/lmeomdeutlreys/t/hAisysn.c_SdheulatydeodwInn.istyTass.km<j@sr,e sloiune 727: rEcrer:o/r/:g rPeh/amsoed u"lperso/fTiellee-mbeetfroyrCeo-ncthraonlglee"r Piasr efnitn.issyhse.dm,j si:t8 2i8s: 3t6o
+oo blsaetrev et@or erseoguirster ccoemp:l/e/tgrieo/nm ocdounldeist/iAosny n"cOSShu.tFdiolwen:. sfysl.umsjhs :I5/7O6: 1q6u
+e
+uWeAdR NbINeGf:o rAe  bplroocfkielre BeenfcooruenCthearnegde "a
+nJ aevrarSocrr iwphti leer rwoer :w errees owuarictei:n/g/.g
+r e / m o d u l e s /BAlsoycnkceSrh:u t dWoawint.isnygs .fmojrs ,p ilnign et a7s2k7
+:   E r r o r :   P hPahsaes e":p rToeflielmee-tbreyfCoornet-rcohlalnegre:"  Wiasi tfiinngi sfhoerd ,p eintd iinsg  tpoion gl aatcet itvoi trye
+g i s t e r   c o m pSlteattieo:n  (cnoonndei)t
+iWoAnR N"IONSG.:F iElrer:o rf:l uPshha sIe/ O" pqruoefuielde -bbeeffoorree -pcrhoafniglee"B eisf ofrienCihsahnegde," 
+iJta viasS ctroiop tl aetrer otro:  rreegsiosutrer cocmplee:t/i/ognr ceo/nmdoidtuiloens /"AOsSy.nFciSlheu:t dfolwuns.hs Iys/.Om jqsu,e uleidn eb e7f2o7r:e  Eprrroofri:l eBPefhoarseeC h"apnrgoef"i
+lWeA-RbNeIforeN-Gc:h aandgdeB"l oicsk efri@nriesshoeudr,c ei:t/ /igsr et/omood ullaetse/ Atsyon crSehguitsdtoewrn .csoymsp.lmejtsi:o7n2 7c:o1n5d
+iatdidBolno c"OkSe.rF@irlees:o ufrlcues:h/ /Ig/rOe /qmuoeduuelde s/beAfsoyrnec SphruotfileBedfoowrne.Chsaynsg.em"j
+s:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+1679235174595	geckodriver	INFO	Listening on 127.0.0.1:27795
+1679235174659	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "45975" "--r ... /[::1]:45975/" "-foreground" "-no-remote" "-profile" "/var/folders/ln/q_4xfpgs6096xqlq71rjns7m0000gn/T/rust_mozprofileqmAF49"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679235175195	Marionette	INFO	Marionette enabled
+1679235175275	Marionette	INFO	Listening on port 60270
+Read port: 60270
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-origins\n"
+WebDriver BiDi listening on ws://127.0.0.1:45975
+1679235175606	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/ln/q_4xfpgs6096xqlq71rjns7m0000gn/T/rust_mozprofileqmAF49/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45975/devtools/browser/58e64b14-37f0-44c8-8805-4379a4631211
+]]></system-err>
+  </testcase>
+  <testcase name="verifyAndGetInformationOfTenDayWeather" classname="test.TenDayPageTest" time="20.494">
+    <system-out><![CDATA[[{"date":"Mon 20","temperature":{"night":"25°","day":"31°"},"humidity":{"night":"87%","day":"78%"}},{"date":"Tue 21","temperature":{"night":"25°","day":"31°"},"humidity":{"night":"85%","day":"77%"}},{"date":"Wed 22","temperature":{"night":"26°","day":"31°"},"humidity":{"night":"84%","day":"75%"}},{"date":"Thu 23","temperature":{"night":"25°","day":"31°"},"humidity":{"night":"86%","day":"76%"}},{"date":"Fri 24","temperature":{"night":"25°","day":"31°"},"humidity":{"night":"87%","day":"77%"}},{"date":"Sat 25","temperature":{"night":"25°","day":"30°"},"humidity":{"night":"87%","day":"79%"}},{"date":"Sun 26","temperature":{"night":"25°","day":"30°"},"humidity":{"night":"87%","day":"79%"}},{"date":"Mon 27","temperature":{"night":"25°","day":"31°"},"humidity":{"night":"86%","day":"76%"}},{"date":"Tue 28","temperature":{"night":"25°","day":"31°"},"humidity":{"night":"85%","day":"74%"}},{"date":"Wed 29","temperature":{"night":"25°","day":"31°"},"humidity":{"night":"86%","day":"76%"}}]]]></system-out>
+    <system-err><![CDATA[1679235176975	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:60281
+1679235176977	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1679235176982	Marionette	INFO	Stopped listening on port 60270
+console.warn: services.settings: main/query-stripping sync interrupted by shutdown
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: PhaJavaScript error: resse "proource://gfrilee-before/mo-cdhuales/nge" isAs finished, yncShitu its dtooow lnate to reg.isys.mjs,s tler compline 7e2ti7on: c oEndrition "OS.Filer: oflrus:h  PIhase "profile-before-change" is finished, it is too late to register com/plOe tqiuoeuned  bcondition ef"orOe profiS.Filel:e BfelfuoreChash In/gOe "q
+uWeAuRNINed bGe:f oarddeBl ocker@resouprrcofileBefoe://gre/modreuClhesa/Ansge"y
+ncShutdJown.sysava.Smjcs:r72i7:p1t5 e
+addBlockerrror: re@sroesuource:/rce://gre/m/gre/modules/AsyncShutdown.sys.moduljess/A:523:26
+saynddBlocker@rescoSuhructdeo:w/n./sgys.mjs, lrine/modules/eA s7y27n:c SErhrutdoor: Phase "wn.sysp.rofmiljes-b:ef458o:re1-c5ha
+nsgee"tu is finishepShutdown@d,r it is toesoo luartec teo :r//egister gcorme/moduleplsetion con/osfdiitlioen /"OoSsf.File: fliusle_async_hf I/O queueront.dj sbme:f1o5re pr48:o2fi8le
+Be@forreesoChange"
+Juavrce://garSecr/ipt errmoodru:l reesosur/cosfe://gre/modile/ouslfes/Asyile_async_front.jsm:1568:ncS16
+@resouhructdown.sye:/s/.gmjrs,e l/inmeod 727: Errourles/osfil:e Phase "pr.jsomf:il1e2-:be3f0o
+re-change" @iresourcs efi:n/ished,/g riet /ism toood ulelate to regs/TelemetryStorage.sysi.mjss:10:28ter completion condition 
+_checkPendingPings@r"OS.Fesource://gile: flushr e/modulesI/O queue/dT elemetrySbefore pernodf.sys.mjsileBefo:r8e6C3h:17
+setangeu"p
+@JraevsaoSurcecrip:t/ /egrrreo/rmodu: resloeusr/ceTelemet://gre/rmoduySles/AsynceSnhd.sys.utdown.msjyss:.803:1mjs, li8n
+e 7setup2@7r:e sEoruror: rce://Pghraes/e "profmodulesi/lTee-lbefore-emetryScehnadn.ge" is sys.mjsf:i2n4i1shed, :30
+seittu piTse too llemetratye/ tthoi register cs._delayedInitTask<@resource://gromple/meotdiuolnes/ condTelietmieotnr yCo"OS.Fnitlre:o lflerParlush I/eOn tq.usys.mjseued bef:o8r2e8:36
+obs profileBeefrve@resouroreChange"
+ce://gre/modules/AsyncShutdown.sys.mjs:576:Java1S6c
+r
+iWpAtR NINGerro: rA:  brleoscokerurce:/ /egncrouentere/modd an uelrreors /Aswhile we weyncShutdreo wwaniting..sy
+s . m  j s ,     lBlocker:  iTne 727: EerlemetryConror: Pthraoslel er: s"profhutting idloew-ben
+    f o r e - change Phas"e :i sp rfoinished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, linfe 727i: lEer-rboeforer: Phase "p-change-rtoeflile-befemetroyr
+e - c h ange"      i sS tfaitneishe: Errodr,  giet is totting stateo late :t oE rrror: Phegistera sceo m"profilpletieo-nb ecfoonre-chditioange" is fin "OSn.ished, it File: fluissh too late I/O que uteod regis before prtoefri lceoBmeforepleCthiaonng ec"o
+ndition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+1679235178476	geckodriver	INFO	Listening on 127.0.0.1:11377
+1679235178542	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "23988" "--r ... /[::1]:23988/" "-foreground" "-no-remote" "-profile" "/var/folders/ln/q_4xfpgs6096xqlq71rjns7m0000gn/T/rust_mozprofileWlnlIJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679235179087	Marionette	INFO	Marionette enabled
+1679235179175	Marionette	INFO	Listening on port 60284
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-origins\n"
+Read port: 60284
+WebDriver BiDi listening on ws://127.0.0.1:23988
+1679235179528	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/ln/q_4xfpgs6096xqlq71rjns7m0000gn/T/rust_mozprofileWlnlIJ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:23988/devtools/browser/4644f6fe-789e-4b95-a94d-fbdbde69fef2
+JavaScript warning: https://weather.com/daybreak-today/assets/main.6bf5b0f552a2ed0cbe32.js, line 50: unreachable code after return statement
+JavaScript warning: https://weather.com/daybreak-today/assets/main.6bf5b0f552a2ed0cbe32.js, line 50: unreachable code after return statement
+JavaScript warning: https://z.moatads.com/weatherprebidheader264491819464/moatheader.js, line 287: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://weather.com/daily/assets/main.094546b19ee3eca80ea0.js, line 50: unreachable code after return statement
+JavaScript warning: https://weather.com/daily/assets/main.094546b19ee3eca80ea0.js, line 50: unreachable code after return statement
+JavaScript warning: https://z.moatads.com/weatherprebidheader264491819464/moatheader.js, line 287: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/h7crsjCj0IX-282TYmrQfY-rOnXNYj6L0RJU8oUOaW4.js line 2 > eval line 1016 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 3107, MediaDecoderStateMachine #1] WARNING: 11d0d1bb0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+]]></system-err>
+  </testcase>
+  <testcase name="shouldBeFailedToTestSureFireReportOnly" classname="test.SureFireReportTest" time="0">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at test.SureFireReportTest.shouldBeFailedToTestSureFireReportOnly(SureFireReportTest.java:14)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-err><![CDATA[1679235201553	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:60568
+1679235201556	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1679235201559	Marionette	INFO	Stopped listening on port 60284
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:7Ja2v7a:S1c5r
+iapdtd Belocker@resource://grrre/moduleosr: resource://gr/eA/smyondules/AsyncShutdown.sys.mjs, line 727: ErcShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sryosr.:m jPsh:a4s5e8 :"1p5r
+osfeitupShutdowln@reseo-ubrecfeo:r/e/-change" is finished, it is toog rlea/tmeo dtuol erse/goissftielre /coosmfpilleet_iaosny ncco_nfdriotnito.nj s"mO:S1.5F4i8l:e2:8 
+f@lruessho uIrce:///gOr eq/umeoudeudl ebse/foosrfei lper/oofsiflielBee_faosryenCch_afnrgoen"t
+.Jjasvma:S1c5r6i8p:t1 6e
+r@rroers:o urrecseo:u/r/cger:e///mgordeu/lmeosd/uolsefsi/lAes.yjnscmS:h1u2t:d3o0w
+n@.rseysos.mjsu,r clei:ne 727: Error: Phase "profile-bef//gre/modules/TelemetryStorageo.syrse.-mcjhsa:n1g0e:"2 8i
+s_ cfhienciksPheendd,i nigtP ings@resource://gre/modules/TelemetrySend.sys.mjsi:s8 6t3o:o1 7l
+asteet utpo@ rreesgoiusrtceer: /c/gre/modules/TelemetrySendo.sys.mjs:803:18
+setup@resource://gre/mmpoldeutlieosn/ TceolnedmiettiroynSe n"dO.Ss.yFsi.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resoule: flush I/O queued before rce://gre/modules/TelemetryControllperroParent.sfyisl.emBjes:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNINGf:o rAe Cbhlaoncgkee"r
+ JeanvcaoSucnript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-chatnegree"d  iasn  ferror whilien iwseh ewde,r ei tw aiist itnogo. 
+l a t e   t o   r e gister comBplloectkieorn:  c oWnadiittiionng  "fOoSr. Fpiilneg:  tfalsuks
+h   I / O   q u e u ePdh abseef:o rTee profileBeforeChange"
+JavaScript error: resolemetryController: Waiting for pending puingr caec:ti/v/igtrye
+ / m o d u l e   State: (none)
+WARNING: Error: sP/hAassyen c"Shutdown.sys.mjs,p rloifniel 727: Erreo-beforer-:c hPahnagsee"  "ipsr offiinliesh-ebde,f oirte -icsh atnogoe "l aitse  ftion irsehgeids,t eirt  ciosm ptloeot iloant ec otnod irteigoins t"eOrS .cFoimlep:l eftliuon condition "OS.File: flush I/O queuesdh  bIe/fOo rqeu epureodf ibleefBoeref oprroefCihlaenBgeef"o
+rJeCahvaanSgcer"i
+pWtA ReNrIrNoGr::  ardedsBoluocrkceer:@/r/egsroeu/mrocdeu:le/s//gre/Amosdyunles/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modulcesS/hAustydnocwSnh.ustydown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdows.mjs, line 727: Error: Phase "profile-before-change" is fin.sys.mjs:576:nished, it is too la16
+
+WARNING: A blocker encountered an error while we were waititng.
+e   t o        Blocker:  TelemetryControllrere:g isshtuetrt icng down
+          Phase: profile-befoore-mcphlaentgieo-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:3n0
+se tcuopnTdeiltioenm e"tOrSy./Ftihlies:. _fdleulsahye dII/nOit Tqauseku<e@dr ebseofuorrcee :/p/rgorfei/lmeoBdeufloerse/CThealnegmee"t
+rJyaCvoantrollerPSarcernipt error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-beforet.sy-sc.hmjasn:g8e2"8: 3i6s
+ ofbsienrivseh@erde,so uirtc ei:s/ /tgoroe /lmaotdeu lteos /ArseygnicSshtuetrd ocwonm.pslyest.imojns :c5o7n6d:1i6t
+i
+oWnA R"OS.FilNeI:N Gf:l uEsrhror: Phas eI "/pOr oqfuile-ebueefdo rbe-echfaonrgee "p riosf iflienBisehfeodr,e Cith ainsg et"o
+o late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+]]></system-err>
+  </testcase>
+  <testcase name="shouldBePassToTestSureFireReportOnly" classname="test.SureFireReportTest" time="0"/>
+</testsuite>
