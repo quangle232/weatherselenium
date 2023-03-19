@@ -2,6 +2,8 @@ pipeline {
 
   agent any
 
+  tools {"maven"}
+
   parameters {
     choice(
         name: 'browser',
