@@ -2,8 +2,6 @@ pipeline {
 
   agent any
 
-  tools {}
-
   parameters {
     choice(
         name: 'browser',
