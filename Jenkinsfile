@@ -44,7 +44,7 @@ pipeline {
       reportName: "Weather HTML Report",
       reportTitles: "Weather HTML Report"
       ])
-
+      archiveArtifacts artifacts: 'weather/**'
       cleanWs()
     }
   }
