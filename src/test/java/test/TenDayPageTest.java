@@ -1,10 +1,9 @@
 package test;
 
 import com.ql.core.helper.JsonHelper;
-import com.ql.core.helper.Utilites;
+import com.ql.core.helper.Utilities;
 import org.json.simple.JSONArray;
 import org.junit.Assert;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.TenDayPage;
 import pages.TodayPage;
@@ -21,8 +20,9 @@ public class TenDayPageTest extends BaseTest{
         String filePath = String.format("src/weather/weather_info_%s_%s_%s.json",
                                         this.configuration.getProperty("country"),
                                         this.browserName,
-                                        Utilites.getCurrentDateTimeSuffix());
+                                        Utilities.getCurrentDateTimeSuffix());
         JsonHelper.exportJsonToFile(filePath, weatherJson);
+        Assert.assertTrue(Utilities.isFileNotEmpty(filePath));
     }
 
     @Test

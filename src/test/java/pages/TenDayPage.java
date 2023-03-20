@@ -30,7 +30,7 @@ public class TenDayPage extends BasePage{
 
     // start page actions section
     public WebElement getRowByIndex(int index){
-        return _actionKeyword.findElement(By.cssSelector(String.format("[id='detailIndex%d']",index)));
+        return _actionKeyword.findElement(By.cssSelector(String.format("[id='detailIndex%d']", index)));
     }
 
     public void expandDateRow(int index) throws InterruptedException {
@@ -53,7 +53,7 @@ public class TenDayPage extends BasePage{
     }
 
     public String retrieveTemperatureValue(int index, String dayOrNight) throws Exception {
-        if(dayOrNight.toLowerCase().equals("day") || dayOrNight.toLowerCase().equals("night")){
+        if(dayOrNight.equalsIgnoreCase("day") || dayOrNight.equalsIgnoreCase("night")){
             dayOrNight = dayOrNight.toLowerCase();
         }
         else {
